@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  border: 0px;
+  background-color: black;
+  font-family: roboto;
+  padding-bottom: 0px;
+}
+
+/* Top Bar Container */
+.top-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  margin: 0px;
+  height: 10vh;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 9rem;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #222624;
+  color: white;
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding: 5px;
+  margin-left: 10px;
+  width: 30vw;
+  justify-content: space-between;
+}
+
+input {
+  background-color: #222624;
+  color: #404744;
+  border-width: 0px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.search-bar-1 {
+  display: flex;
+  align-items: center;
+}
+
+/* Logos */
+.spotify-logo {
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 5px;
+}
+.home-logo {
+  font-size: 2.5rem;
+  background-color: #222624;
+  color: white;
+  border-radius: 2.5rem;
+  padding: 5px;
+}
+.search-logo {
+  font-size: 2rem;
+  margin-right: 5px;
+  color: #98979c;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 5px;
+  color: #98979c;
+}
+
+/* Buttons */
+.signup {
+  background-color: transparent;
+  color: #98979c;
+  font-size: large;
+  border-width: 0px;
+  font-weight: bold;
+  width: 8rem;
+}
+.login {
+  background-color: white;
+  height: 3.5rem;
+  width: 8rem;
+  padding: 5px;
+  border-radius: 2rem;
+  font-size: large;
+  font-weight: bold;
+  border-width: 0px;
+}
+
+/* Middle Container */
+.middle-container {
+  display: flex;
+  margin-bottom: 0px;
+}
+
+/* Side Bar Container */
+.side-container {
+  background-color: #121212;
+  width: 25%;
+  margin-bottom: 30px;
+  height: 78vh;
+  border-radius: 10px;
+  padding: 20px 10px;
+  color: #98979c;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 0px;
+}
+.library-div {
+  display: flex;
+  align-items: center;
+  font-size: 0.6rem;
+}
+.sidebar-scroll {
+  height: 40%;
+  overflow: auto;
+}
+.scroll-1 {
+  background-color: #212121;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+  margin: 20px 0;
+}
+.scroll-1 h1 {
+  font-size: 1rem;
+}
+.scroll-1 p {
+  font-size: 0.9rem;
+}
+.scroll-1 button {
+  background-color: white;
+  border-width: 0px;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 10px 5px;
+  font-weight: 700;
+  font-size: 12px;
+  min-width: 40%;
+}
+.sidebar-bottom {
+  margin-top: 40px;
+}
+.ul-div {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: smaller;
+  margin-left: 0px;
+}
+.ul-div p {
+  margin-right: 10px;
+}
+a {
+  font-size: smaller;
+  color: white;
+  text-decoration: none;
+}
+
+/* Logos */
+.library-logo {
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+.plus-logo {
+  margin-left: auto;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.globe-logo {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+/* Buttons */
+.lang-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 14px;
+  height: 2rem;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+/* bottom container */
+.bottom-container{
+  height: 10vh;
+  width: 99vw;
+  margin: 0px;
+  margin-top: 5px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-image: linear-gradient(to right,#d925ac, #b81fcc, #8036e0, #4682db, #6fa2ed);
+  color: white;
+  padding: 0px 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bottom-container h1{
+  font-size: medium;
+  margin-bottom: 0px;
+}
+.bottom-container p{
+  font-size: large;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.bottom-container button{
+  margin: 7px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 50px;
+  width: 10rem;
+  border: 0px;
+}
