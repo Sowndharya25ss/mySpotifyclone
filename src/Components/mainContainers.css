@@ -1,4 +1,3 @@
-
 /* Main Container */
 .main-container {
   background-color: #121212;
@@ -12,102 +11,10 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
-/* Popular Artists Container */
-.popular-artist-container h1 {
-  color: white;
-  font-size: x-large;
-}
-.popular-artist-container div {
-  display: flex;
-  justify-content: space-between;
-}
-.popular-artist-items {
-  display: flex;
-  flex-direction: column;
-  max-height: 9rem;
-  max-width: 9rem;
-}
-.popular-artist-items img {
-  border-radius: 10px;
-  max-height: 9rem;
-  max-width: 9rem;
-}
-.popular-artist-items h1 {
-  color: white;
-  font-weight: 600;
-  margin-top: 5px;
-  font-size: large;
-}
-
-.popular-artist-items p {
-  font-size: small;
-  color: #98979c;
-  font-weight: 600;
-  margin-top: 0px;
-}
-
-/* Featured Container */
-.featured-charts-container h1 {
-  color: white;
-  font-size: x-large;
-  margin-top: 100px;
-}
-.featured-charts-container div {
-  display: flex;
-  justify-content: space-between;
-}
-.featured-items {
-  height: 9rem;
-  width: 9rem;
-  display: flex;
-  flex-direction: column;
-}
-.featured-items img {
-  border-radius: 10px;
-}
-.featured-items p {
-  font-size: small;
-  color: #98979c;
-  font-weight: 600;
-}
-
-
-/* Popular Albums Container */
-.popular-albums-container h1 {
-  color: white;
-  font-size: x-large;
-  margin-top: 100px;
-}
-.popular-albums-container div {
-  display: flex;
-  justify-content: space-between;
-}
-.popular-albums-items {
-  height: 9rem;
-  width: 9rem;
-  display: flex;
-  flex-direction: column;
-}
-.popular-albums-items img {
-  border-radius: 10px;
-}
-.popular-albums-items h1 {
-  color: white;
-  font-weight: 600;
-  margin-top: 5px;
-  font-size: large;
-}
-.popular-albums-items p {
-  font-size: small;
-  color: #98979c;
-  font-weight: 600;
-  margin-top: 0px;
-}
 /* bottom links */
 .bottom-links-container{
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     justify-content: space-between;
 }
 .bottom-links-container div{

@@ -120,7 +120,14 @@ input {
 }
 .sidebar-scroll {
   height: 40%;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.sidebar-scroll::-webkit-scrollbar{
+  display: none;
+}
+.sidebar-scroll {
+  scrollbar-width: none;       /* Firefox */
 }
 .scroll-1 {
   background-color: #212121;
@@ -163,7 +170,12 @@ a {
   font-size: smaller;
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
+a:hover {
+  text-decoration: underline;
+}
+
 
 /* Logos */
 .library-logo {

@@ -3,12 +3,12 @@ import popularArtists from "../utils/popularArtists";
 
 function PopularArtists() {
   return (
-    <div className="popular-artist-container">
+    <div className="category-container">
       <h1>Popular Artists</h1>
-      <div>
+      <div className="flow">
         {popularArtists.map((i) => {
           return (
-            <div className="popular-artist-items" key={i.title}>
+            <div className="category-container-items" key={i.title}>
               <img src={i.img} />
               <h1>{i.title}</h1>
               <p>{i.profession}</p>

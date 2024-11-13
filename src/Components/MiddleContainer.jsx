@@ -4,8 +4,7 @@ import FeaturedCharts from "./FeaturedCharts";
 import PopularArtists from "./PopularArtists";
 import PopularAlbums from "./PopularAlbums";
 import BottomLinks from "./BottomLinks";
-
-import { FaRegCopyright } from "react-icons/fa";
+import Copyright from "./Copyright";
 
 function MiddleContainer() {
   return (
@@ -18,12 +17,9 @@ function MiddleContainer() {
         <PopularArtists />
         <PopularAlbums />
         <FeaturedCharts />
-        <BottomLinks/>
+        <BottomLinks />
         <hr></hr>
-        <div className="copyright-container">
-          <FaRegCopyright style={{fontSize:"large"}}/>
-          <p>2024 Spotify AB</p>
-        </div>
+        <Copyright />
       </div>
     </div>
   );

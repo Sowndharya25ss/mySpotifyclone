@@ -4,6 +4,7 @@ import BottomContainer from "./Components/BottomContainer";
 
 import "./App.css";
 import "./Components/mainContainers.css"
+import "./Components/cards.css"
 
 function App() {
 
